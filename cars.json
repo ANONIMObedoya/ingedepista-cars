@@ -1,0 +1,9 @@
+{
+  "cars": [
+    {
+      "name": "Ferrari 458 Italia",
+      "aliases": ["ferrari 458", "458 italia", "ferrari 458 italia"],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ferrari_458_Italia_--_2011_DC.jpg/640px-Ferrari_458_Italia_--_2011_DC.jpg"
+    }
+  ]
+}
