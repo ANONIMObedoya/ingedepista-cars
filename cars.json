@@ -3,7 +3,12 @@
     {
       "name": "Ferrari 458 Italia",
       "aliases": ["ferrari 458", "458 italia", "ferrari 458 italia"],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ferrari_458_Italia_--_2011_DC.jpg/640px-Ferrari_458_Italia_--_2011_DC.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ferrari_458_Italia_%288136965158%29.jpg/960px-Ferrari_458_Italia_%288136965158%29.jpg"
+    },
+    {
+      "name": "Audi S1",
+      "aliases": ["audi s1", "s1 quattro", "audi s1 quattro"],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2018_Audi_S1_Competition_Quattro_2.0.jpg/960px-2018_Audi_S1_Competition_Quattro_2.0.jpg"
     }
   ]
 }
