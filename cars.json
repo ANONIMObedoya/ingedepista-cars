@@ -1,14 +1,2372 @@
 {
-  "cars": [
-    {
-      "name": "Ferrari 458 Italia",
-      "aliases": ["ferrari 458", "458 italia", "ferrari 458 italia"],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ferrari_458_Italia_%288136965158%29.jpg/960px-Ferrari_458_Italia_%288136965158%29.jpg"
-    },
-    {
-      "name": "Audi S1",
-      "aliases": ["audi s1", "s1 quattro", "audi s1 quattro"],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2018_Audi_S1_Competition_Quattro_2.0.jpg/960px-2018_Audi_S1_Competition_Quattro_2.0.jpg"
-    }
-  ]
+    "cars": [
+        {
+            "name": "Ferrari 458 Italia",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 458",
+                "458 italia",
+                "ferrari 458 italia"
+            ],
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ferrari_458_Italia_%288136965158%29.jpg/960px-Ferrari_458_Italia_%288136965158%29.jpg",
+            "specs": {
+                "potencia": "570bhp",
+                "par_de_torsion": "540Nm",
+                "peso": "1380kg",
+                "velocidad_maxima": "325km/h",
+                "aceleracion": "3.4s 0-100",
+                "relacion_peso_potencia": "2.42kg/hp"
+            }
+        },
+        {
+            "name": "Abarth 500 Assetto Corse",
+            "brand": "Abarth",
+            "aliases": [
+                "abarth 500 assetto corse",
+                "500 assetto corse",
+                "abarth 500 ac"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "195bhp",
+                "par_de_torsion": "302Nm",
+                "peso": "930kg",
+                "velocidad_maxima": "225km/h",
+                "aceleracion": "6.9s 0-100",
+                "relacion_peso_potencia": "4.60kg/hp"
+            }
+        },
+        {
+            "name": "Alfa Romeo GTA",
+            "brand": "Alfa Romeo",
+            "aliases": [
+                "alfa romeo gta",
+                "alfa gta"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "170bhp",
+                "par_de_torsion": "200Nm",
+                "peso": "750kg",
+                "velocidad_maxima": "210+km/h",
+                "aceleracion": "6.1s 0-100",
+                "relacion_peso_potencia": "4.41kg/hp"
+            }
+        },
+        {
+            "name": "Alfa Romeo 4C",
+            "brand": "Alfa Romeo",
+            "aliases": [
+                "alfa romeo 4c",
+                "alfa 4c"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "240bhp",
+                "par_de_torsion": "350Nm",
+                "peso": "925kg",
+                "velocidad_maxima": "245km/h",
+                "aceleracion": "4.5s 0-100",
+                "relacion_peso_potencia": "3.90kg/hp"
+            }
+        },
+        {
+            "name": "Alfa Romeo 33 Stradale",
+            "brand": "Alfa Romeo",
+            "aliases": [
+                "alfa romeo 33 stradale",
+                "alfa 33 stradale",
+                "33 stradale"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "230bhp",
+                "par_de_torsion": "206Nm",
+                "peso": "700kg",
+                "velocidad_maxima": "260km/h",
+                "aceleracion": "5.5s 0-100",
+                "relacion_peso_potencia": "3.04kg/hp"
+            }
+        },
+        {
+            "name": "Alfa Romeo 155 TI V6",
+            "brand": "Alfa Romeo",
+            "aliases": [
+                "alfa romeo 155 ti v6",
+                "alfa 155 ti",
+                "155 ti v6"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "420bhp",
+                "par_de_torsion": "294Nm",
+                "peso": "1050kg",
+                "velocidad_maxima": "280+km/h",
+                "aceleracion": "4.5s 0-100",
+                "relacion_peso_potencia": "2.50kg/hp"
+            }
+        },
+        {
+            "name": "Abarth 595 SS",
+            "brand": "Abarth",
+            "aliases": [
+                "abarth 595 ss",
+                "595 ss"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "32bhp",
+                "par_de_torsion": "44Nm",
+                "peso": "470kg",
+                "velocidad_maxima": "130km/h",
+                "aceleracion": "25.8s 0-100",
+                "relacion_peso_potencia": "18.9kg/hp"
+            }
+        },
+        {
+            "name": "Abarth 595 SS Step 1",
+            "brand": "Abarth",
+            "aliases": [
+                "abarth 595 ss step 1",
+                "595 ss step 1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "32bhp",
+                "par_de_torsion": "44Nm",
+                "peso": "470kg",
+                "velocidad_maxima": "130km/h",
+                "aceleracion": "25.8s 0-100",
+                "relacion_peso_potencia": "18.9kg/hp"
+            }
+        },
+        {
+            "name": "Abarth 595 SS Step 2",
+            "brand": "Abarth",
+            "aliases": [
+                "abarth 595 ss step 2",
+                "595 ss step 2"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "65bhp",
+                "par_de_torsion": "80Nm",
+                "peso": "470kg",
+                "velocidad_maxima": "155km/h",
+                "aceleracion": "14.0s 0-100",
+                "relacion_peso_potencia": "6.71kg/hp"
+            }
+        },
+        {
+            "name": "Abarth 500 EsseEsse Step1",
+            "brand": "Abarth",
+            "aliases": [
+                "abarth 500 esseesse step1",
+                "500 esseesse step 1",
+                "abarth esseesse step1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "175bhp",
+                "par_de_torsion": "245Nm",
+                "peso": "1025kg",
+                "velocidad_maxima": "211km/h",
+                "aceleracion": "7.4s 0-100",
+                "relacion_peso_potencia": "6.40kg/hp"
+            }
+        },
+        {
+            "name": "Abarth 500 EsseEsse",
+            "brand": "Abarth",
+            "aliases": [
+                "abarth 500 esseesse",
+                "500 esseesse",
+                "abarth esseesse"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "160bhp",
+                "par_de_torsion": "230Nm",
+                "peso": "1025kg",
+                "velocidad_maxima": "211km/h",
+                "aceleracion": "7.4s 0-100",
+                "relacion_peso_potencia": "6.40kg/hp"
+            }
+        },
+        {
+            "name": "Audi S1",
+            "brand": "Audi",
+            "aliases": [
+                "audi s1",
+                "s1 quattro",
+                "audi s1 quattro"
+            ],
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2018_Audi_S1_Competition_Quattro_2.0.jpg/960px-2018_Audi_S1_Competition_Quattro_2.0.jpg",
+            "specs": {
+                "potencia": "231bhp",
+                "par_de_torsion": "370Nm",
+                "peso": "1340kg",
+                "velocidad_maxima": "241km/h",
+                "aceleracion": "5.8s 0-100",
+                "relacion_peso_potencia": "5.80kg/hp"
+            }
+        },
+        {
+            "name": "Audi Sport quattro",
+            "brand": "Audi",
+            "aliases": [
+                "audi sport quattro",
+                "sport quattro"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "306bhp",
+                "par_de_torsion": "350Nm",
+                "peso": "1298kg",
+                "velocidad_maxima": "250km/h",
+                "aceleracion": "4.7s 0-100",
+                "relacion_peso_potencia": "4.18kg/hp"
+            }
+        },
+        {
+            "name": "Audi Sport quattro S1 E2",
+            "brand": "Audi",
+            "aliases": [
+                "audi sport quattro s1 e2",
+                "sport quattro s1 e2",
+                "quattro s1 e2"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "540bhp",
+                "par_de_torsion": "570Nm",
+                "peso": "1090kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "3.1s 0-100",
+                "relacion_peso_potencia": "2.01kg/hp"
+            }
+        },
+        {
+            "name": "Audi Sport quattro Step1",
+            "brand": "Audi",
+            "aliases": [
+                "audi sport quattro step1",
+                "sport quattro step1",
+                "sport quattro step 1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "373bhp",
+                "par_de_torsion": "425Nm",
+                "peso": "1298kg",
+                "velocidad_maxima": "272km/h",
+                "aceleracion": "4.5s 0-100",
+                "relacion_peso_potencia": "3.43kg/hp"
+            }
+        },
+        {
+            "name": "Audi R8 V10 Plus",
+            "brand": "Audi",
+            "aliases": [
+                "audi r8 v10 plus",
+                "r8 v10 plus",
+                "r8 v10+"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "550bhp",
+                "par_de_torsion": "540Nm",
+                "peso": "1620kg",
+                "velocidad_maxima": "317km/h",
+                "aceleracion": "3.5s 0-100",
+                "relacion_peso_potencia": "3.00kg/hp"
+            }
+        },
+        {
+            "name": "Audi R8 LMS Ultra",
+            "brand": "Audi",
+            "aliases": [
+                "audi r8 lms ultra",
+                "r8 lms ultra",
+                "r8 lms"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "570bhp",
+                "par_de_torsion": "500+Nm",
+                "peso": "1250kg",
+                "velocidad_maxima": "320km/h",
+                "aceleracion": "3.4s 0-100",
+                "relacion_peso_potencia": "2.19kg/hp"
+            }
+        },
+        {
+            "name": "Alfa Romeo Giulia Quadrifoglio",
+            "brand": "Alfa Romeo",
+            "aliases": [
+                "alfa romeo giulia quadrifoglio",
+                "giulia quadrifoglio",
+                "alfa giulia qv"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "510bhp",
+                "par_de_torsion": "600Nm",
+                "peso": "1595kg",
+                "velocidad_maxima": "307km/h",
+                "aceleracion": "3.9s 0-100",
+                "relacion_peso_potencia": "3.13kg/hp"
+            }
+        },
+        {
+            "name": "Alfa Romeo Mito QV",
+            "brand": "Alfa Romeo",
+            "aliases": [
+                "alfa romeo mito qv",
+                "mito qv",
+                "alfa mito"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "168bhp",
+                "par_de_torsion": "250Nm",
+                "peso": "1140kg",
+                "velocidad_maxima": "219km/h",
+                "aceleracion": "7.3s 0-100",
+                "relacion_peso_potencia": "6.70kg/hp"
+            }
+        },
+        {
+            "name": "Giulietta QV",
+            "brand": "Alfa Romeo",
+            "aliases": [
+                "giulietta qv",
+                "alfa giulietta qv",
+                "alfa romeo giulietta qv"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "235bhp",
+                "par_de_torsion": "349Nm",
+                "peso": "1390kg",
+                "velocidad_maxima": "241km/h",
+                "aceleracion": "6.6s 0-100",
+                "relacion_peso_potencia": "5.91kg/hp"
+            }
+        },
+        {
+            "name": "Giulietta QV Launch Edition 2014",
+            "brand": "Alfa Romeo",
+            "aliases": [
+                "giulietta qv launch edition 2014",
+                "giulietta launch edition",
+                "giulietta qv 2014"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "240bhp",
+                "par_de_torsion": "349Nm",
+                "peso": "1390kg",
+                "velocidad_maxima": "241km/h",
+                "aceleracion": "6.0s 0-100",
+                "relacion_peso_potencia": "5.79kg/hp"
+            }
+        },
+        {
+            "name": "BMW M3 E92 Step1",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m3 e92 step1",
+                "m3 e92 step1",
+                "m3 e92 step 1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "414bhp",
+                "par_de_torsion": "400Nm",
+                "peso": "1605kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "4.3s 0-100",
+                "relacion_peso_potencia": "3.87kg/hp"
+            }
+        },
+        {
+            "name": "BMW M3 E92",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m3 e92",
+                "m3 e92"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "414bhp",
+                "par_de_torsion": "400Nm",
+                "peso": "1605kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "4.3s 0-100",
+                "relacion_peso_potencia": "3.87kg/hp"
+            }
+        },
+        {
+            "name": "BMW M3 E30 Drift",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m3 e30 drift",
+                "m3 e30 drift"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "343bhp",
+                "par_de_torsion": "365Nm",
+                "peso": "1150kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "5.3s 0-100",
+                "relacion_peso_potencia": "3.35kg/hp"
+            }
+        },
+        {
+            "name": "BMW M3 E30 Gr.A 92",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m3 e30 gr.a 92",
+                "m3 e30 gr a 92",
+                "m3 e30 group a 92"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "350+bhp",
+                "par_de_torsion": "310Nm",
+                "peso": "945kg",
+                "velocidad_maxima": "280+km/h",
+                "aceleracion": "4.3s 0-100",
+                "relacion_peso_potencia": "2.70kg/hp"
+            }
+        },
+        {
+            "name": "BMW M3 E30 Step1",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m3 e30 step1",
+                "m3 e30 step1",
+                "m3 e30 step 1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "238bhp",
+                "par_de_torsion": "240Nm",
+                "peso": "1200kg",
+                "velocidad_maxima": "248km/h",
+                "aceleracion": "7.4s 0-100",
+                "relacion_peso_potencia": "5.04kg/hp"
+            }
+        },
+        {
+            "name": "BMW M3 E30 Group A",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m3 e30 group a",
+                "m3 e30 group a",
+                "m3 e30 gr a"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "290+bhp",
+                "par_de_torsion": "310Nm",
+                "peso": "945kg",
+                "velocidad_maxima": "280+km/h",
+                "aceleracion": "4.3s 0-100",
+                "relacion_peso_potencia": "3.26kg/hp"
+            }
+        },
+        {
+            "name": "BMW M3 E30",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m3 e30",
+                "m3 e30"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "238bhp",
+                "par_de_torsion": "240Nm",
+                "peso": "1200kg",
+                "velocidad_maxima": "248km/h",
+                "aceleracion": "7.4s 0-100",
+                "relacion_peso_potencia": "5.04kg/hp"
+            }
+        },
+        {
+            "name": "BMW M235i Racing",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m235i racing",
+                "m235i racing"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "333bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "1424kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "4.5s 0-100",
+                "relacion_peso_potencia": "4.27kg/hp"
+            }
+        },
+        {
+            "name": "BMW 1M Stage 3",
+            "brand": "BMW",
+            "aliases": [
+                "bmw 1m stage 3",
+                "1m stage 3",
+                "bmw 1m s3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "400bhp",
+                "par_de_torsion": "580Nm",
+                "peso": "1495kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "3.9s 0-100",
+                "relacion_peso_potencia": "3.74kg/hp"
+            }
+        },
+        {
+            "name": "BMW 1M",
+            "brand": "BMW",
+            "aliases": [
+                "bmw 1m",
+                "1m coupe",
+                "bmw 1m coupe"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "340bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "1495kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "4.9s 0-100",
+                "relacion_peso_potencia": "4.46kg/hp"
+            }
+        },
+        {
+            "name": "Chevrolet Corvette C7R",
+            "brand": "Chevrolet",
+            "aliases": [
+                "chevrolet corvette c7r",
+                "corvette c7r",
+                "c7r"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "495+bhp",
+                "par_de_torsion": "650+Nm",
+                "peso": "1320kg",
+                "velocidad_maxima": "280+km/h",
+                "aceleracion": "3.4s 0-100",
+                "relacion_peso_potencia": "2.66kg/hp"
+            }
+        },
+        {
+            "name": "Chevrolet Corvette C7 Stingray",
+            "brand": "Chevrolet",
+            "aliases": [
+                "chevrolet corvette c7 stingray",
+                "corvette c7 stingray",
+                "corvette stingray"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "455bhp",
+                "par_de_torsion": "625Nm",
+                "peso": "1496kg",
+                "velocidad_maxima": "290km/h",
+                "aceleracion": "3.8s 0-100",
+                "relacion_peso_potencia": "3.29kg/hp"
+            }
+        },
+        {
+            "name": "BMW Z4 GT3",
+            "brand": "BMW",
+            "aliases": [
+                "bmw z4 gt3",
+                "z4 gt3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "530bhp",
+                "par_de_torsion": "520Nm",
+                "peso": "1265kg",
+                "velocidad_maxima": "280+km/h",
+                "aceleracion": "3.5s 0-100",
+                "relacion_peso_potencia": "2.38kg/hp"
+            }
+        },
+        {
+            "name": "BMW Z4 E89 Step1",
+            "brand": "BMW",
+            "aliases": [
+                "bmw z4 e89 step1",
+                "z4 e89 step1",
+                "z4 e89 step 1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "330bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "1605kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "4.7s 0-100",
+                "relacion_peso_potencia": "4.86kg/hp"
+            }
+        },
+        {
+            "name": "BMW M4",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m4",
+                "m4 coupe"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "431bhp",
+                "par_de_torsion": "550Nm",
+                "peso": "1572kg",
+                "velocidad_maxima": "250km/h",
+                "aceleracion": "3.9s 0-100",
+                "relacion_peso_potencia": "3.64kg/hp"
+            }
+        },
+        {
+            "name": "BMW M4 Akrapovic",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m4 akrapovic",
+                "m4 akrapovic"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "445bhp",
+                "par_de_torsion": "589Nm",
+                "peso": "1572kg",
+                "velocidad_maxima": "250km/h",
+                "aceleracion": "3.9s 0-100",
+                "relacion_peso_potencia": "3.53kg/hp"
+            }
+        },
+        {
+            "name": "BMW Z4 E89",
+            "brand": "BMW",
+            "aliases": [
+                "bmw z4 e89",
+                "z4 e89"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "330bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "1605kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "4.7s 0-100",
+                "relacion_peso_potencia": "4.86kg/hp"
+            }
+        },
+        {
+            "name": "BMW Z4 E89 Drift",
+            "brand": "BMW",
+            "aliases": [
+                "bmw z4 e89 drift",
+                "z4 e89 drift",
+                "z4 drift"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "390bhp",
+                "par_de_torsion": "580Nm",
+                "peso": "1525kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "3.8s 0-100",
+                "relacion_peso_potencia": "3.91kg/hp"
+            }
+        },
+        {
+            "name": "BMW M3 GT2",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m3 gt2",
+                "m3 gt2"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "485+bhp",
+                "par_de_torsion": "499Nm",
+                "peso": "1245kg",
+                "velocidad_maxima": "270+km/h",
+                "aceleracion": "4.0s 0-100",
+                "relacion_peso_potencia": "2.56kg/hp"
+            }
+        },
+        {
+            "name": "BMW M3 E92 Drift",
+            "brand": "BMW",
+            "aliases": [
+                "bmw m3 e92 drift",
+                "m3 e92 drift"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "414bhp",
+                "par_de_torsion": "400Nm",
+                "peso": "1605kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "4.3s 0-100",
+                "relacion_peso_potencia": "3.87kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Evora GTC",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus evora gtc",
+                "evora gtc"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "450bhp",
+                "par_de_torsion": "460Nm",
+                "peso": "1205kg",
+                "velocidad_maxima": "280km/h",
+                "aceleracion": "3.8s 0-100",
+                "relacion_peso_potencia": "2.68kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Evora GTE",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus evora gte",
+                "evora gte"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "420bhp",
+                "par_de_torsion": "461Nm",
+                "peso": "1395kg",
+                "velocidad_maxima": "288km/h",
+                "aceleracion": "4.5s 0-100",
+                "relacion_peso_potencia": "3.32kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Elise SC",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus elise sc",
+                "elise sc"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "217bhp",
+                "par_de_torsion": "242Nm",
+                "peso": "929kg",
+                "velocidad_maxima": "235km/h",
+                "aceleracion": "4.6s 0-100",
+                "relacion_peso_potencia": "4.28kg/hp"
+            }
+        },
+        {
+            "name": "Lotus 2-Eleven GT4",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus 2-eleven gt4",
+                "2-eleven gt4",
+                "lotus 2eleven gt4"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "270bhp",
+                "par_de_torsion": "252Nm",
+                "peso": "670kg",
+                "velocidad_maxima": "260km/h",
+                "aceleracion": "3.7s 0-100",
+                "relacion_peso_potencia": "2.48kg/hp"
+            }
+        },
+        {
+            "name": "Lotus 2-Eleven",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus 2-eleven",
+                "2-eleven",
+                "lotus 2eleven"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "252bhp",
+                "par_de_torsion": "242Nm",
+                "peso": "670kg",
+                "velocidad_maxima": "249km/h",
+                "aceleracion": "3.8s 0-100",
+                "relacion_peso_potencia": "2.65kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Type 49",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus type 49",
+                "type 49",
+                "lotus 49"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "410bhp",
+                "par_de_torsion": "350Nm",
+                "peso": "575kg",
+                "velocidad_maxima": "300+km/h",
+                "aceleracion": "4.0s 0-100",
+                "relacion_peso_potencia": "1.40kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Type 25",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus type 25",
+                "type 25",
+                "lotus 25"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "195bhp",
+                "par_de_torsion": "160Nm",
+                "peso": "451kg",
+                "velocidad_maxima": "270km/h",
+                "aceleracion": "5.5s 0-100",
+                "relacion_peso_potencia": "2.31kg/hp"
+            }
+        },
+        {
+            "name": "Lotus 98T",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus 98t",
+                "98t"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "1000+bhp",
+                "par_de_torsion": "800+Nm",
+                "peso": "523kg",
+                "velocidad_maxima": "330+km/h",
+                "aceleracion": "2.8s 0-100",
+                "relacion_peso_potencia": "0.52kg/hp"
+            }
+        },
+        {
+            "name": "Lotus 72D",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus 72d",
+                "72d",
+                "lotus 72"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "440bhp",
+                "par_de_torsion": "332Nm",
+                "peso": "550kg",
+                "velocidad_maxima": "290km/h",
+                "aceleracion": "4.2s 0-100",
+                "relacion_peso_potencia": "1.25kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Elise SC Step2",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus elise sc step2",
+                "elise sc step2",
+                "elise sc step 2"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "217bhp",
+                "par_de_torsion": "242Nm",
+                "peso": "929kg",
+                "velocidad_maxima": "235km/h",
+                "aceleracion": "4.6s 0-100",
+                "relacion_peso_potencia": "4.28kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Exige Scura",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus exige scura",
+                "exige scura"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "257bhp",
+                "par_de_torsion": "243Nm",
+                "peso": "925kg",
+                "velocidad_maxima": "245km/h",
+                "aceleracion": "4.1s 0-100",
+                "relacion_peso_potencia": "3.60kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Exige 240R",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus exige 240r",
+                "exige 240r"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "243bhp",
+                "par_de_torsion": "236Nm",
+                "peso": "930kg",
+                "velocidad_maxima": "249km/h",
+                "aceleracion": "4.0s 0-100",
+                "relacion_peso_potencia": "3.83kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Exige 240R Stage3",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus exige 240r stage3",
+                "exige 240r stage3",
+                "exige 240r stage 3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "270bhp",
+                "par_de_torsion": "270Nm",
+                "peso": "900kg",
+                "velocidad_maxima": "249km/h",
+                "aceleracion": "4.0s 0-100",
+                "relacion_peso_potencia": "3.33kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Exige S",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus exige s",
+                "exige s"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "345bhp",
+                "par_de_torsion": "400Nm",
+                "peso": "1176kg",
+                "velocidad_maxima": "274km/h",
+                "aceleracion": "4.0s 0-100",
+                "relacion_peso_potencia": "3.41kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Exige S Roadster",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus exige s roadster",
+                "exige s roadster"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "345bhp",
+                "par_de_torsion": "400Nm",
+                "peso": "1166kg",
+                "velocidad_maxima": "233+km/h",
+                "aceleracion": "4.0s 0-100",
+                "relacion_peso_potencia": "3.38kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Evora S Stage 2",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus evora s stage 2",
+                "evora s stage 2",
+                "evora s stage2"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "400bhp",
+                "par_de_torsion": "420Nm",
+                "peso": "1385kg",
+                "velocidad_maxima": "277km/h",
+                "aceleracion": "4.6s 0-100",
+                "relacion_peso_potencia": "3.46kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Evora S",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus evora s",
+                "evora s"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "345bhp",
+                "par_de_torsion": "400Nm",
+                "peso": "1385kg",
+                "velocidad_maxima": "277km/h",
+                "aceleracion": "4.6s 0-100",
+                "relacion_peso_potencia": "4.01kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Evora GX",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus evora gx",
+                "evora gx"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "440bhp",
+                "par_de_torsion": "460Nm",
+                "peso": "1395kg",
+                "velocidad_maxima": "288km/h",
+                "aceleracion": "4.5s 0-100",
+                "relacion_peso_potencia": "3.32kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Evora GTE Carbon",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus evora gte carbon",
+                "evora gte carbon"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "420bhp",
+                "par_de_torsion": "461Nm",
+                "peso": "1285kg",
+                "velocidad_maxima": "288km/h",
+                "aceleracion": "4.4s 0-100",
+                "relacion_peso_potencia": "3.06kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Elise SC Step1",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus elise sc step1",
+                "elise sc step1",
+                "elise sc step 1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "217bhp",
+                "par_de_torsion": "242Nm",
+                "peso": "929kg",
+                "velocidad_maxima": "235km/h",
+                "aceleracion": "4.6s 0-100",
+                "relacion_peso_potencia": "4.28kg/hp"
+            }
+        },
+        {
+            "name": "Lamborghini Gallardo SL Step3",
+            "brand": "Lamborghini",
+            "aliases": [
+                "lamborghini gallardo sl step3",
+                "gallardo sl step3",
+                "gallardo sl step 3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "1200bhp",
+                "par_de_torsion": "1050Nm",
+                "peso": "1390kg",
+                "velocidad_maxima": "349km/h",
+                "aceleracion": "2.5s 0-100",
+                "relacion_peso_potencia": "1.16kg/hp"
+            }
+        },
+        {
+            "name": "Lamborghini Huracan GT3",
+            "brand": "Lamborghini",
+            "aliases": [
+                "lamborghini huracan gt3",
+                "huracan gt3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "600bhp",
+                "par_de_torsion": "500+Nm",
+                "peso": "1239kg",
+                "velocidad_maxima": "290km/h",
+                "aceleracion": "3.2s 0-100",
+                "relacion_peso_potencia": "2.07kg/hp"
+            }
+        },
+        {
+            "name": "Lamborghini Huracan Performante",
+            "brand": "Lamborghini",
+            "aliases": [
+                "lamborghini huracan performante",
+                "huracan performante"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "640bhp",
+                "par_de_torsion": "600Nm",
+                "peso": "1382kg",
+                "velocidad_maxima": "325km/h",
+                "aceleracion": "2.9s 0-100",
+                "relacion_peso_potencia": "2.15kg/hp"
+            }
+        },
+        {
+            "name": "Lamborghini Huracan ST",
+            "brand": "Lamborghini",
+            "aliases": [
+                "lamborghini huracan st",
+                "huracan st"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "620bhp",
+                "par_de_torsion": "570Nm",
+                "peso": "1270kg",
+                "velocidad_maxima": "300km/h",
+                "aceleracion": "3.0s 0-100",
+                "relacion_peso_potencia": "2.04kg/hp"
+            }
+        },
+        {
+            "name": "Lamborghini Gallardo SL",
+            "brand": "Lamborghini",
+            "aliases": [
+                "lamborghini gallardo sl",
+                "gallardo sl"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "570bhp",
+                "par_de_torsion": "540Nm",
+                "peso": "1340kg",
+                "velocidad_maxima": "325km/h",
+                "aceleracion": "3.4s 0-100",
+                "relacion_peso_potencia": "2.35kg/hp"
+            }
+        },
+        {
+            "name": "Lamborghini Countach S1",
+            "brand": "Lamborghini",
+            "aliases": [
+                "lamborghini countach s1",
+                "countach s1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "442bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "1490kg",
+                "velocidad_maxima": "295km/h",
+                "aceleracion": "5.6s 0-100",
+                "relacion_peso_potencia": "3.34kg/hp"
+            }
+        },
+        {
+            "name": "Lamborghini Countach",
+            "brand": "Lamborghini",
+            "aliases": [
+                "lamborghini countach",
+                "countach"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "442bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "1490kg",
+                "velocidad_maxima": "295km/h",
+                "aceleracion": "5.6s 0-100",
+                "relacion_peso_potencia": "3.34kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Exos 125 Stage 1",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus exos 125 stage 1",
+                "exos 125 stage 1",
+                "exos 125 stage1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "750bhp",
+                "par_de_torsion": "620Nm",
+                "peso": "660kg",
+                "velocidad_maxima": "320km/h",
+                "aceleracion": "2.5s 0-100",
+                "relacion_peso_potencia": "0.88kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Exos 125",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus exos 125",
+                "exos 125"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "640bhp",
+                "par_de_torsion": "450Nm",
+                "peso": "660kg",
+                "velocidad_maxima": "300km/h",
+                "aceleracion": "2.8s 0-100",
+                "relacion_peso_potencia": "1.03kg/hp"
+            }
+        },
+        {
+            "name": "Lotus Exige V6 CUP",
+            "brand": "Lotus",
+            "aliases": [
+                "lotus exige v6 cup",
+                "exige v6 cup",
+                "exige v6cup"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "345bhp",
+                "par_de_torsion": "400Nm",
+                "peso": "1080kg",
+                "velocidad_maxima": "274km/h",
+                "aceleracion": "4.0s 0-100",
+                "relacion_peso_potencia": "3.09kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 330 P4",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 330 p4",
+                "330 p4"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "450bhp",
+                "par_de_torsion": "412Nm",
+                "peso": "792kg",
+                "velocidad_maxima": "320km/h",
+                "aceleracion": "4.2s 0-100",
+                "relacion_peso_potencia": "1.76kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 312T",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 312t",
+                "312t"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "495bhp",
+                "par_de_torsion": "308Nm",
+                "peso": "606kg",
+                "velocidad_maxima": "320km/h",
+                "aceleracion": "3.8s 0-100",
+                "relacion_peso_potencia": "1.22kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 312/67",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 312/67",
+                "312/67",
+                "ferrari 312 67"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "390bhp",
+                "par_de_torsion": "310Nm",
+                "peso": "548kg",
+                "velocidad_maxima": "290km/h",
+                "aceleracion": "4.5s 0-100",
+                "relacion_peso_potencia": "1.41kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 250 GTO",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 250 gto",
+                "250 gto"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "300bhp",
+                "par_de_torsion": "294Nm",
+                "peso": "880kg",
+                "velocidad_maxima": "280km/h",
+                "aceleracion": "6.1s 0-100",
+                "relacion_peso_potencia": "2.93kg/hp"
+            }
+        },
+        {
+            "name": "Ford Mustang 2015",
+            "brand": "Ford",
+            "aliases": [
+                "ford mustang 2015",
+                "mustang 2015",
+                "mustang gt 2015"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "435bhp",
+                "par_de_torsion": "542Nm",
+                "peso": "1680kg",
+                "velocidad_maxima": "250km/h",
+                "aceleracion": "4.4s 0-100",
+                "relacion_peso_potencia": "3.84kg/hp"
+            }
+        },
+        {
+            "name": "Ford GT40",
+            "brand": "Ford",
+            "aliases": [
+                "ford gt40",
+                "gt40"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "430bhp",
+                "par_de_torsion": "530Nm",
+                "peso": "1025kg",
+                "velocidad_maxima": "335km/h",
+                "aceleracion": "4.2s 0-100",
+                "relacion_peso_potencia": "2.38kg/hp"
+            }
+        },
+        {
+            "name": "Ford Escort RS1600",
+            "brand": "Ford",
+            "aliases": [
+                "ford escort rs1600",
+                "escort rs1600",
+                "escort rs 1600"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "260+bhp",
+                "par_de_torsion": "200+Nm",
+                "peso": "885kg",
+                "velocidad_maxima": "220+km/h",
+                "aceleracion": "5.5s 0-100",
+                "relacion_peso_potencia": "3.40kg/hp"
+            }
+        },
+        {
+            "name": "KTM X-Bow R",
+            "brand": "KTM",
+            "aliases": [
+                "ktm x-bow r",
+                "x-bow r",
+                "ktm xbow r"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "300bhp",
+                "par_de_torsion": "400Nm",
+                "peso": "795kg",
+                "velocidad_maxima": "250km/h",
+                "aceleracion": "3.7s 0-100",
+                "relacion_peso_potencia": "2.65kg/hp"
+            }
+        },
+        {
+            "name": "Lamborghini Sesto Elemento",
+            "brand": "Lamborghini",
+            "aliases": [
+                "lamborghini sesto elemento",
+                "sesto elemento"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "570bhp",
+                "par_de_torsion": "540Nm",
+                "peso": "999kg",
+                "velocidad_maxima": "350km/h",
+                "aceleracion": "2.5s 0-100",
+                "relacion_peso_potencia": "1.75kg/hp"
+            }
+        },
+        {
+            "name": "Lamborghini Miura P400 SV",
+            "brand": "Lamborghini",
+            "aliases": [
+                "lamborghini miura p400 sv",
+                "miura p400 sv",
+                "miura sv"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "385bhp",
+                "par_de_torsion": "400Nm",
+                "peso": "1245kg",
+                "velocidad_maxima": "300km/h",
+                "aceleracion": "6.5s 0-100",
+                "relacion_peso_potencia": "3.19kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 812 Superfast",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 812 superfast",
+                "812 superfast",
+                "ferrari 812"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "800bhp",
+                "par_de_torsion": "718Nm",
+                "peso": "1525kg",
+                "velocidad_maxima": ">340km/h",
+                "aceleracion": "2.9s 0-100",
+                "relacion_peso_potencia": "1.91kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 599XX EVO",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 599xx evo",
+                "599xx evo",
+                "599 xx evo"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "750bhp",
+                "par_de_torsion": "700Nm",
+                "peso": "1310kg",
+                "velocidad_maxima": "303km/h",
+                "aceleracion": "2.5s 0-100",
+                "relacion_peso_potencia": "1.74kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 488 GTB",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 488 gtb",
+                "488 gtb",
+                "ferrari 488"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "660bhp",
+                "par_de_torsion": "760Nm",
+                "peso": "1370kg",
+                "velocidad_maxima": "330km/h",
+                "aceleracion": "3.0s 0-100",
+                "relacion_peso_potencia": "2.08kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 458 GT2",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 458 gt2",
+                "458 gt2"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "470bhp",
+                "par_de_torsion": "520Nm",
+                "peso": "1245kg",
+                "velocidad_maxima": "270+km/h",
+                "aceleracion": "3.4s 0-100",
+                "relacion_peso_potencia": "2.65kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 458 Italia",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 458 italia",
+                "458 italia",
+                "ferrari 458"
+            ],
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ferrari_458_Italia_%288136965158%29.jpg/960px-Ferrari_458_Italia_%288136965158%29.jpg",
+            "specs": {
+                "potencia": "570bhp",
+                "par_de_torsion": "540Nm",
+                "peso": "1573kg",
+                "velocidad_maxima": "325+km/h",
+                "aceleracion": "3.3s 0-100",
+                "relacion_peso_potencia": "2.76kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari 458 Italia Stage 3",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari 458 italia stage 3",
+                "458 italia stage 3",
+                "458 stage 3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "570bhp",
+                "par_de_torsion": "540Nm",
+                "peso": "1140kg",
+                "velocidad_maxima": "325+km/h",
+                "aceleracion": "2.9s 0-100",
+                "relacion_peso_potencia": "2.00kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari F2004",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari f2004",
+                "f2004"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "865bhp",
+                "par_de_torsion": "295Nm",
+                "peso": "600kg",
+                "velocidad_maxima": "370km/h",
+                "aceleracion": "2.5s 0-100",
+                "relacion_peso_potencia": "0.69kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari F40",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari f40",
+                "f40"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "478bhp",
+                "par_de_torsion": "577Nm",
+                "peso": "1175kg",
+                "velocidad_maxima": "324km/h",
+                "aceleracion": "3.5s 0-100",
+                "relacion_peso_potencia": "2.46kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari F40 Stage 3",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari f40 stage 3",
+                "f40 stage 3",
+                "f40 stage3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "610+bhp",
+                "par_de_torsion": "715Nm",
+                "peso": "1175kg",
+                "velocidad_maxima": "350km/h",
+                "aceleracion": "2.8s 0-100",
+                "relacion_peso_potencia": "1.93kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari FXX K",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari fxx k",
+                "fxx k",
+                "ferrari fxxk"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "1050bhp",
+                "par_de_torsion": "900+Nm",
+                "peso": "1165kg",
+                "velocidad_maxima": "350+km/h",
+                "aceleracion": "<3.0s 0-100",
+                "relacion_peso_potencia": "1.11kg/hp"
+            }
+        },
+        {
+            "name": "Mazda Miata NA",
+            "brand": "Mazda",
+            "aliases": [
+                "mazda miata na",
+                "miata na",
+                "mazda mx5 na",
+                "mx5 na"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "130bhp",
+                "par_de_torsion": "152Nm",
+                "peso": "1040kg",
+                "velocidad_maxima": "197+km/h",
+                "aceleracion": "8.8s 0-100",
+                "relacion_peso_potencia": "8.00kg/hp"
+            }
+        },
+        {
+            "name": "Mazda MX5 ND",
+            "brand": "Mazda",
+            "aliases": [
+                "mazda mx5 nd",
+                "mx5 nd",
+                "mazda miata nd"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "160bhp",
+                "par_de_torsion": "200Nm",
+                "peso": "1058kg",
+                "velocidad_maxima": "214km/h",
+                "aceleracion": "7.3s 0-100",
+                "relacion_peso_potencia": "6.61kg/hp"
+            }
+        },
+        {
+            "name": "Mazda MX5 Cup",
+            "brand": "Mazda",
+            "aliases": [
+                "mazda mx5 cup",
+                "mx5 cup",
+                "miata cup"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "160bhp",
+                "par_de_torsion": "200Nm",
+                "peso": "908kg",
+                "velocidad_maxima": "210km/h",
+                "aceleracion": "6.5s 0-100",
+                "relacion_peso_potencia": "5.67kg/hp"
+            }
+        },
+        {
+            "name": "Mazda 787B",
+            "brand": "Mazda",
+            "aliases": [
+                "mazda 787b",
+                "787b"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "690bhp",
+                "par_de_torsion": "608Nm",
+                "peso": "845kg",
+                "velocidad_maxima": "340+km/h",
+                "aceleracion": "2.8s 0-100",
+                "relacion_peso_potencia": "1.22kg/hp"
+            }
+        },
+        {
+            "name": "Maserati Levante S",
+            "brand": "Maserati",
+            "aliases": [
+                "maserati levante s",
+                "levante s"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "424bhp",
+                "par_de_torsion": "580Nm",
+                "peso": "2108kg",
+                "velocidad_maxima": "264km/h",
+                "aceleracion": "5.0s 0-100",
+                "relacion_peso_potencia": "4.97kg/hp"
+            }
+        },
+        {
+            "name": "Maserati Quattroporte GTS",
+            "brand": "Maserati",
+            "aliases": [
+                "maserati quattroporte gts",
+                "quattroporte gts"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "530bhp",
+                "par_de_torsion": "710Nm",
+                "peso": "1900kg",
+                "velocidad_maxima": "310km/h",
+                "aceleracion": "4.7s 0-100",
+                "relacion_peso_potencia": "3.58kg/hp"
+            }
+        },
+        {
+            "name": "Maserati Alfieri",
+            "brand": "Maserati",
+            "aliases": [
+                "maserati alfieri",
+                "alfieri"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "460bhp",
+                "par_de_torsion": "520Nm",
+                "peso": "1496kg",
+                "velocidad_maxima": "300km/h",
+                "aceleracion": "4.5s 0-100",
+                "relacion_peso_potencia": "3.25kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari SF70H",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari sf70h",
+                "sf70h",
+                "ferrari f1 2017"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "950bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "728kg",
+                "velocidad_maxima": "360km/h",
+                "aceleracion": "2.3s 0-100",
+                "relacion_peso_potencia": "0.77kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari LaFerrari",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari laferrari",
+                "laferrari"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "963bhp",
+                "par_de_torsion": "900+Nm",
+                "peso": "1255kg",
+                "velocidad_maxima": "350+km/h",
+                "aceleracion": "<3.0s 0-100",
+                "relacion_peso_potencia": "1.30kg/hp"
+            }
+        },
+        {
+            "name": "Ferrari GTO",
+            "brand": "Ferrari",
+            "aliases": [
+                "ferrari gto",
+                "ferrari 288 gto",
+                "288 gto"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "400bhp",
+                "par_de_torsion": "496Nm",
+                "peso": "1160kg",
+                "velocidad_maxima": "305km/h",
+                "aceleracion": "4.9s 0-100",
+                "relacion_peso_potencia": "2.90kg/hp"
+            }
+        },
+        {
+            "name": "Mercedes-Benz 190E EVO II",
+            "brand": "Mercedes-Benz",
+            "aliases": [
+                "mercedes 190e evo ii",
+                "190e evo ii",
+                "190e evo 2"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "370+bhp",
+                "par_de_torsion": "310Nm",
+                "peso": "980kg",
+                "velocidad_maxima": "280+km/h",
+                "aceleracion": "4.8s 0-100",
+                "relacion_peso_potencia": "2.64kg/hp"
+            }
+        },
+        {
+            "name": "Mercedes SLS AMG GT3",
+            "brand": "Mercedes-Benz",
+            "aliases": [
+                "mercedes sls amg gt3",
+                "sls amg gt3",
+                "sls gt3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "520bhp",
+                "par_de_torsion": "600Nm",
+                "peso": "1265kg",
+                "velocidad_maxima": "280+km/h",
+                "aceleracion": "3.6s 0-100",
+                "relacion_peso_potencia": "2.43kg/hp"
+            }
+        },
+        {
+            "name": "Mercedes SLS AMG",
+            "brand": "Mercedes-Benz",
+            "aliases": [
+                "mercedes sls amg",
+                "sls amg",
+                "mercedes sls"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "571bhp",
+                "par_de_torsion": "650Nm",
+                "peso": "1620kg",
+                "velocidad_maxima": "317+km/h",
+                "aceleracion": "3.8s 0-100",
+                "relacion_peso_potencia": "2.84kg/hp"
+            }
+        },
+        {
+            "name": "McLaren MP4-12C GT3",
+            "brand": "McLaren",
+            "aliases": [
+                "mclaren mp4-12c gt3",
+                "mp4-12c gt3",
+                "12c gt3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "500bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "1245kg",
+                "velocidad_maxima": "275+km/h",
+                "aceleracion": "3.3s 0-100",
+                "relacion_peso_potencia": "2.49kg/hp"
+            }
+        },
+        {
+            "name": "McLaren P1",
+            "brand": "McLaren",
+            "aliases": [
+                "mclaren p1",
+                "p1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "903bhp",
+                "par_de_torsion": "900Nm",
+                "peso": "1450kg",
+                "velocidad_maxima": "350km/h",
+                "aceleracion": "2.8s 0-100",
+                "relacion_peso_potencia": "1.60kg/hp"
+            }
+        },
+        {
+            "name": "McLaren MP4-12C",
+            "brand": "McLaren",
+            "aliases": [
+                "mclaren mp4-12c",
+                "mp4-12c",
+                "mclaren 12c"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "616bhp",
+                "par_de_torsion": "600Nm",
+                "peso": "1434kg",
+                "velocidad_maxima": "330km/h",
+                "aceleracion": "3.2s 0-100",
+                "relacion_peso_potencia": "2.33kg/hp"
+            }
+        },
+        {
+            "name": "McLaren F1 GTR",
+            "brand": "McLaren",
+            "aliases": [
+                "mclaren f1 gtr",
+                "f1 gtr"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "595bhp",
+                "par_de_torsion": "693Nm",
+                "peso": "1010kg",
+                "velocidad_maxima": "330+km/h",
+                "aceleracion": "3.2s 0-100",
+                "relacion_peso_potencia": "1.69kg/hp"
+            }
+        },
+        {
+            "name": "McLaren 650S GT3",
+            "brand": "McLaren",
+            "aliases": [
+                "mclaren 650s gt3",
+                "650s gt3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "500bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "1240kg",
+                "velocidad_maxima": "275+km/h",
+                "aceleracion": "3.2s 0-100",
+                "relacion_peso_potencia": "2.48kg/hp"
+            }
+        },
+        {
+            "name": "Mazda RX-7 Spirit R",
+            "brand": "Mazda",
+            "aliases": [
+                "mazda rx-7 spirit r",
+                "rx-7 spirit r",
+                "rx7 spirit r"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "276bhp",
+                "par_de_torsion": "314Nm",
+                "peso": "1270kg",
+                "velocidad_maxima": "256km/h",
+                "aceleracion": "5.3s 0-100",
+                "relacion_peso_potencia": "4.60kg/hp"
+            }
+        },
+        {
+            "name": "Mazda RX-7 Tuned",
+            "brand": "Mazda",
+            "aliases": [
+                "mazda rx-7 tuned",
+                "rx-7 tuned",
+                "rx7 tuned"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "444bhp",
+                "par_de_torsion": "398Nm",
+                "peso": "1312kg",
+                "velocidad_maxima": "310km/h",
+                "aceleracion": "4.0s 0-100",
+                "relacion_peso_potencia": "2.95kg/hp"
+            }
+        },
+        {
+            "name": "Tatuus FA01",
+            "brand": "Tatuus",
+            "aliases": [
+                "tatuus fa01",
+                "fa01",
+                "tatuus fa 01"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "198bhp",
+                "par_de_torsion": "230Nm",
+                "peso": "455kg",
+                "velocidad_maxima": "230+km/h",
+                "aceleracion": "--s 0-100",
+                "relacion_peso_potencia": "2.30kg/hp"
+            }
+        },
+        {
+            "name": "Pagani Zonda R",
+            "brand": "Pagani",
+            "aliases": [
+                "pagani zonda r",
+                "zonda r"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "750bhp",
+                "par_de_torsion": "710Nm",
+                "peso": "1070kg",
+                "velocidad_maxima": "350+km/h",
+                "aceleracion": "2.7s 0-100",
+                "relacion_peso_potencia": "1.43kg/hp"
+            }
+        },
+        {
+            "name": "Pagani Huayra BC",
+            "brand": "Pagani",
+            "aliases": [
+                "pagani huayra bc",
+                "huayra bc"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "740bhp",
+                "par_de_torsion": "1100Nm",
+                "peso": "1218kg",
+                "velocidad_maxima": "370+km/h",
+                "aceleracion": "2.8s 0-100",
+                "relacion_peso_potencia": "1.64kg/hp"
+            }
+        },
+        {
+            "name": "Pagani Huayra",
+            "brand": "Pagani",
+            "aliases": [
+                "pagani huayra",
+                "huayra"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "730bhp",
+                "par_de_torsion": "1000Nm",
+                "peso": "1360kg",
+                "velocidad_maxima": "370+km/h",
+                "aceleracion": "2.7s 0-100",
+                "relacion_peso_potencia": "1.86kg/hp"
+            }
+        },
+        {
+            "name": "Nissan Skyline GTR R34 V-Spec",
+            "brand": "Nissan",
+            "aliases": [
+                "nissan skyline gtr r34 v-spec",
+                "skyline r34 v-spec",
+                "gtr r34 v-spec",
+                "r34 v-spec"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "325bhp",
+                "par_de_torsion": "392Nm",
+                "peso": "1560kg",
+                "velocidad_maxima": "250+km/h",
+                "aceleracion": "4.9s 0-100",
+                "relacion_peso_potencia": "4.83kg/hp"
+            }
+        },
+        {
+            "name": "Nissan GT-R NISMO",
+            "brand": "Nissan",
+            "aliases": [
+                "nissan gt-r nismo",
+                "gtr nismo",
+                "nissan gtr nismo"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "592bhp",
+                "par_de_torsion": "652Nm",
+                "peso": "1750kg",
+                "velocidad_maxima": "313km/h",
+                "aceleracion": "2.1s 0-100",
+                "relacion_peso_potencia": "2.28kg/hp"
+            }
+        },
+        {
+            "name": "Nissan GT-R GT3",
+            "brand": "Nissan",
+            "aliases": [
+                "nissan gt-r gt3",
+                "gtr gt3",
+                "nissan gtr gt3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "600bhp",
+                "par_de_torsion": "700Nm",
+                "peso": "1300kg",
+                "velocidad_maxima": "280+km/h",
+                "aceleracion": "--s 0-100",
+                "relacion_peso_potencia": "2.17kg/hp"
+            }
+        },
+        {
+            "name": "Nissan 370z Nismo",
+            "brand": "Nissan",
+            "aliases": [
+                "nissan 370z nismo",
+                "370z nismo",
+                "nissan 370 z nismo"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "350bhp",
+                "par_de_torsion": "374Nm",
+                "peso": "1498kg",
+                "velocidad_maxima": "250km/h",
+                "aceleracion": "5.0s 0-100",
+                "relacion_peso_potencia": "4.28kg/hp"
+            }
+        },
+        {
+            "name": "Mercedes-Benz C9 1989 LM",
+            "brand": "Mercedes-Benz",
+            "aliases": [
+                "mercedes-benz c9 1989 lm",
+                "mercedes c9 lm",
+                "sauber c9",
+                "c9 le mans"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "750+bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "905kg",
+                "velocidad_maxima": "380+km/h",
+                "aceleracion": "--s 0-100",
+                "relacion_peso_potencia": "1.20kg/hp"
+            }
+        },
+        {
+            "name": "Mercedes-Benz AMG GT3",
+            "brand": "Mercedes-Benz",
+            "aliases": [
+                "mercedes-benz amg gt3",
+                "mercedes amg gt3",
+                "amg gt3"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "520bhp",
+                "par_de_torsion": "600Nm",
+                "peso": "1265kg",
+                "velocidad_maxima": "280+km/h",
+                "aceleracion": "--s 0-100",
+                "relacion_peso_potencia": "2.43kg/hp"
+            }
+        },
+        {
+            "name": "Toyota AE86",
+            "brand": "Toyota",
+            "aliases": [
+                "toyota ae86",
+                "ae86",
+                "trueno",
+                "toyota trueno"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "122bhp",
+                "par_de_torsion": "142Nm",
+                "peso": "925kg",
+                "velocidad_maxima": "196km/h",
+                "aceleracion": "9.2s 0-100",
+                "relacion_peso_potencia": "7.58kg/hp"
+            }
+        },
+        {
+            "name": "Porsche Panamera Turbo",
+            "brand": "Porsche",
+            "aliases": [
+                "porsche panamera turbo",
+                "panamera turbo"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "550bhp",
+                "par_de_torsion": "770Nm",
+                "peso": "2070kg",
+                "velocidad_maxima": "306km/h",
+                "aceleracion": "3.6s 0-100",
+                "relacion_peso_potencia": "3.76kg/hp"
+            }
+        },
+        {
+            "name": "Porsche Macan Turbo",
+            "brand": "Porsche",
+            "aliases": [
+                "porsche macan turbo",
+                "macan turbo"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "400bhp",
+                "par_de_torsion": "550Nm",
+                "peso": "1925kg",
+                "velocidad_maxima": "266km/h",
+                "aceleracion": "4.8s 0-100",
+                "relacion_peso_potencia": "4.87kg/hp"
+            }
+        },
+        {
+            "name": "Praga R1",
+            "brand": "Praga",
+            "aliases": [
+                "praga r1",
+                "r1"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "210bhp",
+                "par_de_torsion": "220Nm",
+                "peso": "585kg",
+                "velocidad_maxima": "--km/h",
+                "aceleracion": "--s 0-100",
+                "relacion_peso_potencia": "2.78kg/hp"
+            }
+        },
+        {
+            "name": "RUF RT12 R AWD",
+            "brand": "RUF",
+            "aliases": [
+                "ruf rt12 r awd",
+                "rt12 r awd"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "730bhp",
+                "par_de_torsion": "940Nm",
+                "peso": "1495kg",
+                "velocidad_maxima": "370+km/h",
+                "aceleracion": "--s 0-100",
+                "relacion_peso_potencia": "2.00kg/hp"
+            }
+        },
+        {
+            "name": "RUF RT12 R",
+            "brand": "RUF",
+            "aliases": [
+                "ruf rt12 r",
+                "rt12 r"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "730bhp",
+                "par_de_torsion": "940Nm",
+                "peso": "1495kg",
+                "velocidad_maxima": "370+km/h",
+                "aceleracion": "--s 0-100",
+                "relacion_peso_potencia": "2.00kg/hp"
+            }
+        },
+        {
+            "name": "RUF CTR Yellowbird",
+            "brand": "RUF",
+            "aliases": [
+                "ruf ctr yellowbird",
+                "ctr yellowbird",
+                "yellowbird"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "469bhp",
+                "par_de_torsion": "553Nm",
+                "peso": "1147kg",
+                "velocidad_maxima": "342km/h",
+                "aceleracion": "4.0s 0-100",
+                "relacion_peso_potencia": "2.44kg/hp"
+            }
+        },
+        {
+            "name": "SCG 003C",
+            "brand": "SCG",
+            "aliases": [
+                "scg 003c",
+                "003c",
+                "scuderia cameron glickenhaus 003c"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "530bhp",
+                "par_de_torsion": "700Nm",
+                "peso": "1350kg",
+                "velocidad_maxima": "--km/h",
+                "aceleracion": "--s 0-100",
+                "relacion_peso_potencia": "2.54kg/hp"
+            }
+        },
+        {
+            "name": "P4/5 Competizione 2011",
+            "brand": "SCG",
+            "aliases": [
+                "p4/5 competizione 2011",
+                "p4/5 competizione",
+                "p45 competizione"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "450bhp",
+                "par_de_torsion": "500Nm",
+                "peso": "1230kg",
+                "velocidad_maxima": "260km/h",
+                "aceleracion": "3.9s 0-100",
+                "relacion_peso_potencia": "2.62kg/hp"
+            }
+        },
+        {
+            "name": "Shelby Cobra 427 S/C",
+            "brand": "Shelby",
+            "aliases": [
+                "shelby cobra 427 s/c",
+                "cobra 427 s/c",
+                "cobra 427"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "500bhp",
+                "par_de_torsion": "626Nm",
+                "peso": "1110kg",
+                "velocidad_maxima": "265km/h",
+                "aceleracion": "4.3s 0-100",
+                "relacion_peso_potencia": "2.14kg/hp"
+            }
+        },
+        {
+            "name": "Toyota Supra MKIV",
+            "brand": "Toyota",
+            "aliases": [
+                "Toyota Supra MKIV",
+                "Supra MKIV",
+                "MKIV",
+                "Toyota MKIV"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "280bhp",
+                "par_de_torsion": "458Nm",
+                "peso": "1510kg",
+                "velocidad_maxima": "249km/h",
+                "aceleracion": "5.0s 0-100",
+                "relacion_peso_potencia": "5.39kg/hp"
+            }
+        },
+        {
+            "name": "Toyota Supra MKIV Drift",
+            "brand": "Toyota",
+            "aliases": [
+                "Toyota Supra MKIV Drift",
+                "Supra MKIV Drift",
+                "MKIV Drift",
+                "Toyota MKIV Drift"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "624bhp",
+                "par_de_torsion": "756Nm",
+                "peso": "1505kg",
+                "velocidad_maxima": "170km/h",
+                "aceleracion": "3.5s 0-100",
+                "relacion_peso_potencia": "2.41kg/hp"
+            }
+        },
+        {
+            "name": "Toyota Supra MKIV Time Attack",
+            "brand": "Toyota",
+            "aliases": [
+                "Toyota Supra MKIV Time Attack",
+                "Supra MKIV Time Attack",
+                "MKIV Time Attack",
+                "Toyota MKIV Time Attack",
+                "Toyota Supra MKIV Time",
+                "Toyota Supra MKIV Attack",
+                "Toyota Time Attack",
+                "Supra Time Attack",
+                "Time Attack",
+                "MKIV Attack",
+                "Supra Attack"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "690bhp",
+                "par_de_torsion": "756Nm",
+                "peso": "1505kg",
+                "velocidad_maxima": "310km/h",
+                "aceleracion": "3.5s 0-100",
+                "relacion_peso_potencia": "2.18kg/hp"
+            }
+        }
+    ]
 }
