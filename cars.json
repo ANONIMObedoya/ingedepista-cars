@@ -2367,6 +2367,42 @@
                 "aceleracion": "3.5s 0-100",
                 "relacion_peso_potencia": "2.18kg/hp"
             }
+        },
+        {
+            "name": "Toyota AE86 Tuned",
+            "brand": "Toyota",
+            "aliases": [
+                "Toyota AE86 Tuned",
+                "AE86 Tuned",
+                "Tuned AE86"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "200bhp",
+                "par_de_torsion": "206Nm",
+                "peso": "900kg",
+                "velocidad_maxima": "195km/h",
+                "aceleracion": "6.0s 0-100",
+                "relacion_peso_potencia": "4.50kg/hp"
+            }
+        },
+        {
+            "name": "Toyota AE86 Drift",
+            "brand": "Toyota",
+            "aliases": [
+                "Toyota AE86 Drift",
+                "AE86 Drift",
+                "Drift AE86"
+            ],
+            "image_url": "",
+            "specs": {
+                "potencia": "185bhp",
+                "par_de_torsion": "206Nm",
+                "peso": "920kg",
+                "velocidad_maxima": "190km/h",
+                "aceleracion": "4.5s 0-100",
+                "relacion_peso_potencia": "4.97kg/hp"
+            }
         }
     ]
 }
