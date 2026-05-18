@@ -1,0 +1,384 @@
+{
+  "tracks": [
+    {
+      "name": "Barcelona - GP",
+      "aliases": ["barcelona gp", "circuito de barcelona", "catalunya gp", "pista barcelona"],
+      "image_url": "",
+      "pais": "España",
+      "longitud_m": 4655,
+      "boxes": 24,
+      "curvas": 16,
+      "nota": "Sede del Gran Premio de España de F1."
+    },
+    {
+      "name": "Barcelona - Moto",
+      "aliases": ["barcelona moto", "circuito de barcelona moto", "catalunya moto"],
+      "image_url": "",
+      "pais": "España",
+      "longitud_m": 4727,
+      "boxes": 24,
+      "curvas": 14,
+      "nota": "Variante del trazado de Barcelona usada en MotoGP."
+    },
+    {
+      "name": "Black Cat County",
+      "aliases": ["black cat county", "bcc"],
+      "image_url": "",
+      "pais": "U.S.A.",
+      "longitud_m": 6478,
+      "boxes": 24,
+      "curvas": 20,
+      "nota": "Circuito ficticio de montaña inspirado en carreteras americanas."
+    },
+    {
+      "name": "Black Cat County - Long",
+      "aliases": ["black cat county long", "bcc long"],
+      "image_url": "",
+      "pais": "U.S.A.",
+      "longitud_m": 11244,
+      "boxes": 24,
+      "curvas": 38,
+      "nota": "Versión extendida de Black Cat County."
+    },
+    {
+      "name": "Black Cat County - Short",
+      "aliases": ["black cat county short", "bcc short"],
+      "image_url": "",
+      "pais": "U.S.A.",
+      "longitud_m": 6542,
+      "boxes": 24,
+      "curvas": 16,
+      "nota": "Versión corta del trazado Black Cat County."
+    },
+    {
+      "name": "Brands Hatch - GP",
+      "aliases": ["brands hatch gp", "brands hatch grand prix"],
+      "image_url": "",
+      "pais": "Gran Bretaña",
+      "longitud_m": 3908,
+      "boxes": 24,
+      "curvas": 12,
+      "nota": "Antigua sede del GP de Gran Bretaña de F1."
+    },
+    {
+      "name": "Brands Hatch - Indy",
+      "aliases": ["brands hatch indy", "brands hatch short"],
+      "image_url": "",
+      "pais": "Gran Bretaña",
+      "longitud_m": 1929,
+      "boxes": 24,
+      "curvas": 8,
+      "nota": "Versión corta de Brands Hatch."
+    },
+    {
+      "name": "Highlands",
+      "aliases": ["highlands", "scotland highlands"],
+      "image_url": "",
+      "pais": "Scotland",
+      "longitud_m": 8152,
+      "boxes": 24,
+      "curvas": 30,
+      "nota": "Pista ficticia inspirada en las Highlands escocesas."
+    },
+    {
+      "name": "Highlands Drift",
+      "aliases": ["highlands drift"],
+      "image_url": "",
+      "pais": "Scotland",
+      "longitud_m": 5167,
+      "boxes": 24,
+      "curvas": 18,
+      "nota": "Variante optimizada para drift."
+    },
+    {
+      "name": "Highlands Long",
+      "aliases": ["highlands long"],
+      "image_url": "",
+      "pais": "Scotland",
+      "longitud_m": 12191,
+      "boxes": 24,
+      "curvas": 45,
+      "nota": "Versión extendida del trazado Highlands."
+    },
+    {
+      "name": "Highlands Short",
+      "aliases": ["highlands short"],
+      "image_url": "",
+      "pais": "Scotland",
+      "longitud_m": 1714,
+      "boxes": 24,
+      "curvas": 8,
+      "nota": "Versión muy compacta del trazado Highlands."
+    },
+    {
+      "name": "Imola",
+      "aliases": ["imola", "autodromo enzo e dino ferrari", "autodromo di imola"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 4909,
+      "boxes": 24,
+      "curvas": 19,
+      "nota": "Sede del GP de San Marino. Conocido por la curva Tamburello."
+    },
+    {
+      "name": "Laguna Seca",
+      "aliases": ["laguna seca", "mazda raceway laguna seca", "weathertech raceway laguna seca"],
+      "image_url": "",
+      "pais": "U.S.A.",
+      "longitud_m": 3602,
+      "boxes": 24,
+      "curvas": 11,
+      "nota": "Famoso por el Sacacorchos (Corkscrew) con 18 metros de desnivel."
+    },
+    {
+      "name": "Magione",
+      "aliases": ["magione", "autodromo dell umbria", "autodromo di magione"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 2507,
+      "boxes": 18,
+      "curvas": 10,
+      "nota": "Circuito compacto junto al Lago Trasimeno."
+    },
+    {
+      "name": "Monza",
+      "aliases": ["monza", "autodromo nazionale monza", "monza gp"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 5793,
+      "boxes": 26,
+      "curvas": 11,
+      "nota": "El Templo de la Velocidad. Una de las pistas más rápidas del mundo."
+    },
+    {
+      "name": "Monza 1966 - Full Course",
+      "aliases": ["monza 1966 full course", "monza 1966 full", "monza historico"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 10000,
+      "boxes": 25,
+      "curvas": 14,
+      "nota": "Versión histórica con el óvalo de alta velocidad. 10km de trazado."
+    },
+    {
+      "name": "Monza 1966 - Junior Course",
+      "aliases": ["monza 1966 junior", "monza junior course"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 2405,
+      "boxes": 25,
+      "curvas": 6,
+      "nota": "Versión corta del trazado histórico de Monza 1966."
+    },
+    {
+      "name": "Monza 1966 - Road Course",
+      "aliases": ["monza 1966 road course", "monza 1966 road"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 5793,
+      "boxes": 25,
+      "curvas": 11,
+      "nota": "Variante histórica de Monza sin el óvalo."
+    },
+    {
+      "name": "Mugello",
+      "aliases": ["mugello", "autodromo del mugello", "mugello circuit"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 5245,
+      "boxes": 24,
+      "curvas": 15,
+      "nota": "Circuito propiedad de Ferrari en las colinas de la Toscana."
+    },
+    {
+      "name": "Nordschleife",
+      "aliases": ["nordschleife", "nurburgring nordschleife", "green hell", "infierno verde"],
+      "image_url": "",
+      "pais": "Alemania",
+      "longitud_m": 20832,
+      "boxes": 24,
+      "curvas": 154,
+      "nota": "El Infierno Verde. 154 curvas, 300m de desnivel."
+    },
+    {
+      "name": "Nordschleife - Endurance",
+      "aliases": ["nordschleife endurance", "nurburgring 24h", "nordschleife 24h"],
+      "image_url": "",
+      "pais": "Alemania",
+      "longitud_m": 25378,
+      "boxes": 24,
+      "curvas": 160,
+      "nota": "Trazado completo de las 24h de Nürburgring. El más largo del mundo."
+    },
+    {
+      "name": "Nordschleife - Endurance Cup",
+      "aliases": ["nordschleife endurance cup", "nurburgring endurance cup"],
+      "image_url": "",
+      "pais": "Alemania",
+      "longitud_m": 24433,
+      "boxes": 24,
+      "curvas": 158,
+      "nota": "Variante del trazado de resistencia para copa de endurance."
+    },
+    {
+      "name": "Nordschleife - Tourist",
+      "aliases": ["nordschleife tourist", "nordschleife touristenfahrten"],
+      "image_url": "",
+      "pais": "Alemania",
+      "longitud_m": 19100,
+      "boxes": 32,
+      "curvas": 154,
+      "nota": "Versión turista de la Nordschleife. La más pura del circuito histórico."
+    },
+    {
+      "name": "Nurburgring - GP",
+      "aliases": ["nurburgring gp", "nurburgring grand prix", "nbr gp"],
+      "image_url": "",
+      "pais": "Alemania",
+      "longitud_m": 5148,
+      "boxes": 24,
+      "curvas": 15,
+      "nota": "Trazado moderno del Gran Premio. Sede del GP de Europa de F1."
+    },
+    {
+      "name": "Nurburgring - GP (GT)",
+      "aliases": ["nurburgring gp gt", "nurburgring gp gt version"],
+      "image_url": "",
+      "pais": "Alemania",
+      "longitud_m": 5137,
+      "boxes": 24,
+      "curvas": 15,
+      "nota": "Variante GT del trazado GP del Nürburgring."
+    },
+    {
+      "name": "Nurburgring - Sprint",
+      "aliases": ["nurburgring sprint", "nbr sprint"],
+      "image_url": "",
+      "pais": "Alemania",
+      "longitud_m": 3629,
+      "boxes": 24,
+      "curvas": 10,
+      "nota": "Versión corta del trazado GP del Nürburgring."
+    },
+    {
+      "name": "Nurburgring - Sprint (GT)",
+      "aliases": ["nurburgring sprint gt", "nbr sprint gt"],
+      "image_url": "",
+      "pais": "Alemania",
+      "longitud_m": 3618,
+      "boxes": 24,
+      "curvas": 10,
+      "nota": "Variante GT del trazado Sprint del Nürburgring."
+    },
+    {
+      "name": "Red Bull Ring GP",
+      "aliases": ["red bull ring gp", "red bull ring grand prix", "spielberg gp", "osterreichring"],
+      "image_url": "",
+      "pais": "Austria",
+      "longitud_m": 4326,
+      "boxes": 24,
+      "curvas": 10,
+      "nota": "Sede del Gran Premio de Austria de F1."
+    },
+    {
+      "name": "Red Bull Ring National",
+      "aliases": ["red bull ring national", "red bull ring short", "spielberg national"],
+      "image_url": "",
+      "pais": "Austria",
+      "longitud_m": 2336,
+      "boxes": 24,
+      "curvas": 6,
+      "nota": "Versión corta del Red Bull Ring."
+    },
+    {
+      "name": "Silverstone - International",
+      "aliases": ["silverstone international", "silverstone int"],
+      "image_url": "",
+      "pais": "Gran Bretaña",
+      "longitud_m": 3619,
+      "boxes": 24,
+      "curvas": 14,
+      "nota": "Versión intermedia del trazado de Silverstone."
+    },
+    {
+      "name": "Silverstone - National",
+      "aliases": ["silverstone national", "silverstone nat"],
+      "image_url": "",
+      "pais": "Gran Bretaña",
+      "longitud_m": 2638,
+      "boxes": 24,
+      "curvas": 9,
+      "nota": "Versión corta del circuito de Silverstone."
+    },
+    {
+      "name": "Silverstone 1967",
+      "aliases": ["silverstone 1967", "silverstone historico 1967", "silverstone classic"],
+      "image_url": "",
+      "pais": "Gran Bretaña",
+      "longitud_m": 4710,
+      "boxes": 20,
+      "curvas": 9,
+      "nota": "Versión histórica de Silverstone de 1967."
+    },
+    {
+      "name": "Silverstone GP",
+      "aliases": ["silverstone gp", "silverstone grand prix", "silverstone f1"],
+      "image_url": "",
+      "pais": "Gran Bretaña",
+      "longitud_m": 5901,
+      "boxes": 24,
+      "curvas": 18,
+      "nota": "Sede del Gran Premio de Gran Bretaña de F1."
+    },
+    {
+      "name": "Spa",
+      "aliases": ["spa", "spa francorchamps", "circuit de spa-francorchamps", "spa belgica"],
+      "image_url": "",
+      "pais": "Bélgica",
+      "longitud_m": 7004,
+      "boxes": 24,
+      "curvas": 19,
+      "nota": "Considerado el mejor circuito del mundo. Famoso por Eau Rouge."
+    },
+    {
+      "name": "Vallelunga",
+      "aliases": ["vallelunga", "autodromo vallelunga", "vallelunga circuit"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 4085,
+      "boxes": 24,
+      "curvas": 13,
+      "nota": "Circuito italiano cerca de Roma."
+    },
+    {
+      "name": "Vallelunga - Classic",
+      "aliases": ["vallelunga classic", "vallelunga classico"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 3222,
+      "boxes": 24,
+      "curvas": 11,
+      "nota": "Versión clásica del trazado de Vallelunga."
+    },
+    {
+      "name": "Vallelunga - Club",
+      "aliases": ["vallelunga club"],
+      "image_url": "",
+      "pais": "Italia",
+      "longitud_m": 1746,
+      "boxes": 24,
+      "curvas": 7,
+      "nota": "Versión muy corta del circuito de Vallelunga."
+    },
+    {
+      "name": "Zandvoort",
+      "aliases": ["zandvoort", "circuit park zandvoort", "zandvoort holanda"],
+      "image_url": "",
+      "pais": "Países Bajos",
+      "longitud_m": 4307,
+      "boxes": 18,
+      "curvas": 14,
+      "nota": "Famoso por sus banqueos pronunciados. Sede del GP de Países Bajos de F1."
+    }
+  ]
+}
