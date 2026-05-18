@@ -3,7 +3,7 @@
     {
       "name": "Barcelona - GP",
       "aliases": ["barcelona gp", "circuito de barcelona", "catalunya gp", "pista barcelona"],
-      "image_url": "https://www.assettohub.com/wp-content/uploads/2023/09/Barcelona-2023-map.jpg",
+      "image_url": "https://www.igcd.net/images1/014/246.jpg",
       "pais": "España",
       "longitud_m": 4655,
       "boxes": 24,
@@ -13,7 +13,7 @@
     {
       "name": "Barcelona - Moto",
       "aliases": ["barcelona moto", "circuito de barcelona moto", "catalunya moto"],
-      "image_url": "",
+      "image_url": "https://www.igcd.net/images1/014/207.jpg",
       "pais": "España",
       "longitud_m": 4727,
       "boxes": 24,
@@ -23,7 +23,7 @@
     {
       "name": "Black Cat County",
       "aliases": ["black cat county", "bcc"],
-      "image_url": "",
+      "image_url": "https://assetto.patacuack.net/content/tracks/ks_black_cat_county/ui/layout_int/preview.png",
       "pais": "U.S.A.",
       "longitud_m": 6478,
       "boxes": 24,
@@ -33,7 +33,7 @@
     {
       "name": "Black Cat County - Long",
       "aliases": ["black cat county long", "bcc long"],
-      "image_url": "",
+      "image_url": "http://de.assettohosting.com:20302/content/tracks/ks_black_cat_county/ui/layout_long/preview.png",
       "pais": "U.S.A.",
       "longitud_m": 11244,
       "boxes": 24,
@@ -43,7 +43,7 @@
     {
       "name": "Black Cat County - Short",
       "aliases": ["black cat county short", "bcc short"],
-      "image_url": "",
+      "image_url": "http://de.assettohosting.com:20302/content/tracks/ks_black_cat_county/ui/layout_short/preview.png",
       "pais": "U.S.A.",
       "longitud_m": 6542,
       "boxes": 24,
@@ -53,7 +53,7 @@
     {
       "name": "Brands Hatch - GP",
       "aliases": ["brands hatch gp", "brands hatch grand prix"],
-      "image_url": "",
+      "image_url": "https://lh5.googleusercontent.com/-V7hrz2OjmVk/VShFQCZ8k5I/AAAAAAAAH78/6oLbTNgycJU/s1280/Screenshot_honda_civic_eg_gra_brandshatch_indy_10-4-115-18-48-11.jpg",
       "pais": "Gran Bretaña",
       "longitud_m": 3908,
       "boxes": 24,
@@ -63,7 +63,7 @@
     {
       "name": "Brands Hatch - Indy",
       "aliases": ["brands hatch indy", "brands hatch short"],
-      "image_url": "",
+      "image_url": "https://oversteer48.com/wp-content/uploads/2023/01/Brands-Indy-2021-768x483.jpg",
       "pais": "Gran Bretaña",
       "longitud_m": 1929,
       "boxes": 24,
@@ -73,7 +73,7 @@
     {
       "name": "Highlands",
       "aliases": ["highlands", "scotland highlands"],
-      "image_url": "",
+      "image_url": "https://assetto.patacuack.net/content/tracks/ks_highlands/ui/layout_int/preview.png",
       "pais": "Scotland",
       "longitud_m": 8152,
       "boxes": 24,
@@ -83,7 +83,7 @@
     {
       "name": "Highlands Drift",
       "aliases": ["highlands drift"],
-      "image_url": "",
+      "image_url": "https://assetto.patacuack.net/content/tracks/ks_highlands/ui/layout_drift/preview.png",
       "pais": "Scotland",
       "longitud_m": 5167,
       "boxes": 24,
@@ -93,7 +93,7 @@
     {
       "name": "Highlands Long",
       "aliases": ["highlands long"],
-      "image_url": "",
+      "image_url": "https://assetto.patacuack.net/content/tracks/ks_highlands/ui/layout_long/preview.png",
       "pais": "Scotland",
       "longitud_m": 12191,
       "boxes": 24,
@@ -103,7 +103,7 @@
     {
       "name": "Highlands Short",
       "aliases": ["highlands short"],
-      "image_url": "",
+      "image_url": "https://assetto.patacuack.net/content/tracks/ks_highlands/ui/layout_short/preview.png",
       "pais": "Scotland",
       "longitud_m": 1714,
       "boxes": 24,
@@ -113,7 +113,7 @@
     {
       "name": "Imola",
       "aliases": ["imola", "autodromo enzo e dino ferrari", "autodromo di imola"],
-      "image_url": "",
+      "image_url": "https://www.diariomotor.com/imagenes/2023/05/imola-f1-assetto-corsa-646cf62695d3c.jpg",
       "pais": "Italia",
       "longitud_m": 4909,
       "boxes": 24,
@@ -123,7 +123,7 @@
     {
       "name": "Laguna Seca",
       "aliases": ["laguna seca", "mazda raceway laguna seca", "weathertech raceway laguna seca"],
-      "image_url": "",
+      "image_url": "https://scontent.fpei1-1.fna.fbcdn.net/v/t39.30808-6/555090484_24892131903754657_5742915880232996431_n.jpg",
       "pais": "U.S.A.",
       "longitud_m": 3602,
       "boxes": 24,
@@ -133,7 +133,7 @@
     {
       "name": "Magione",
       "aliases": ["magione", "autodromo dell umbria", "autodromo di magione"],
-      "image_url": "",
+      "image_url": "https://assetto-db.com/img/tracks/magione_magione/preview.png",
       "pais": "Italia",
       "longitud_m": 2507,
       "boxes": 18,
@@ -143,7 +143,7 @@
     {
       "name": "Monza",
       "aliases": ["monza", "autodromo nazionale monza", "monza gp"],
-      "image_url": "",
+      "image_url": "https://www.igcd.net/images1/014/097.jpg",
       "pais": "Italia",
       "longitud_m": 5793,
       "boxes": 26,
@@ -153,7 +153,7 @@
     {
       "name": "Monza 1966 - Full Course",
       "aliases": ["monza 1966 full course", "monza 1966 full", "monza historico"],
-      "image_url": "",
+      "image_url": "https://www.igcd.net/images1/014/201.jpg",
       "pais": "Italia",
       "longitud_m": 10000,
       "boxes": 25,
@@ -163,7 +163,7 @@
     {
       "name": "Monza 1966 - Junior Course",
       "aliases": ["monza 1966 junior", "monza junior course"],
-      "image_url": "",
+      "image_url": "https://www.igcd.net/images1/014/202.jpg",
       "pais": "Italia",
       "longitud_m": 2405,
       "boxes": 25,
@@ -173,7 +173,7 @@
     {
       "name": "Monza 1966 - Road Course",
       "aliases": ["monza 1966 road course", "monza 1966 road"],
-      "image_url": "",
+      "image_url": "https://www.igcd.net/images1/014/203.jpg",
       "pais": "Italia",
       "longitud_m": 5793,
       "boxes": 25,
