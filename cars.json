@@ -26,7 +26,7 @@
                 "500 assetto corse",
                 "abarth 500 ac"
             ],
-            "image_url": "",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Abarth-2010.jpg/960px-Abarth-2010.jpg",
             "specs": {
                 "potencia": "195bhp",
                 "par_de_torsion": "302Nm",
@@ -43,7 +43,7 @@
                 "alfa romeo gta",
                 "alfa gta"
             ],
-            "image_url": "",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Alfa_Romeo_Giulia_GTA_HH.jpg/960px-Alfa_Romeo_Giulia_GTA_HH.jpg",
             "specs": {
                 "potencia": "170bhp",
                 "par_de_torsion": "200Nm",
@@ -60,7 +60,7 @@
                 "alfa romeo 4c",
                 "alfa 4c"
             ],
-            "image_url": "",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2017_Alfa_Romeo_4C_Spider_TBi_%2863629%29.jpg/960px-2017_Alfa_Romeo_4C_Spider_TBi_%2863629%29.jpg",
             "specs": {
                 "potencia": "240bhp",
                 "par_de_torsion": "350Nm",
@@ -78,7 +78,7 @@
                 "alfa 33 stradale",
                 "33 stradale"
             ],
-            "image_url": "",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/1967_Alfa_Romeo_33_Stradale_Prototype_ARM_Low.jpg/960px-1967_Alfa_Romeo_33_Stradale_Prototype_ARM_Low.jpg",
             "specs": {
                 "potencia": "230bhp",
                 "par_de_torsion": "206Nm",
@@ -96,7 +96,7 @@
                 "alfa 155 ti",
                 "155 ti v6"
             ],
-            "image_url": "",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/1993_Alfa_Romeo_155_V6_TI_DTM_ARM.jpg/960px-1993_Alfa_Romeo_155_V6_TI_DTM_ARM.jpg",
             "specs": {
                 "potencia": "420bhp",
                 "par_de_torsion": "294Nm",
@@ -113,7 +113,7 @@
                 "abarth 595 ss",
                 "595 ss"
             ],
-            "image_url": "",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Manoir_de_l%27Automobile_-_145_-_Fiat_Abarth_595_SS_1963.jpg/960px-Manoir_de_l%27Automobile_-_145_-_Fiat_Abarth_595_SS_1963.jpg",
             "specs": {
                 "potencia": "32bhp",
                 "par_de_torsion": "44Nm",
@@ -130,7 +130,7 @@
                 "abarth 595 ss step 1",
                 "595 ss step 1"
             ],
-            "image_url": "",
+            "image_url": "https://cars.bonhams.com/_next/image.jpg",
             "specs": {
                 "potencia": "32bhp",
                 "par_de_torsion": "44Nm",
